@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <p align="center"><ion-title>DressUp!</ion-title></p> 
+    <ion-buttons end>
+        <button ion-button icon-only (click)="openModal()">
+          <ion-icon name="options" color="light"></ion-icon>
+        </button>
+
+      </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="appbody">
+  <br>
+  <br>
+  <br>
+
+  <ion-list>
+      <ion-card class="gallerycard" *ngFor="let cloth of galleryitems; let i= index">
+            <div>
+                <div class="galleryimagestyle">
+                    <img class="imageof" src="{{cloth.url}}">                    
+                </div>
+
+                <div class="seconddiv">
+
+                    <div class="toptextdiv">
+                        <b style="font-size:16px; margin-top: 20px;">{{cloth.clothType}}</b>
+                        <br>
+                        <br>
+
+                        <p>Added : {{cloth.timestamp}}</p>
+                    </div>
+
+                    <div class="bottomButtonDiv">
+                       <button class="gallerybutton" ion-button (click)="deleteCloth(i)">Delete</button>
+                    </div>
+                </div>
+            </div>
+      </ion-card>
+  </ion-list>
+</ion-content>

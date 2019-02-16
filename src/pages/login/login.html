@@ -1,0 +1,26 @@
+
+<ion-content padding class="appbody">
+  
+    <p align="center"><img style="zoom:50%;" src="../../assets/imgs/login_icon.png"></p>
+  
+    <ion-list>  
+      <ion-item>
+        <ion-label floating>E-mail</ion-label>
+        <ion-input type="email" [(ngModel)]="email"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+          <ion-label floating>Password</ion-label>
+          <ion-input type="password" [(ngModel)]="password"></ion-input>
+      </ion-item>
+    </ion-list>
+  
+    <div padding>
+      <button block ion-button class="loginbtns" (click)="logUserIn()">Log In</button>
+    </div>
+
+    <button ion-button full type="submit" class="facebook-button" (click)="tryFacebookLogin()">Login with Facebook</button>
+    <button ion-button full type="submit" class="twitter-button" (click)="tryTwitterLogin()">Log in with twitter</button>
+    <button ion-button full type="submit" class="google-button"  (click)="tryGoogleLogin()">Google Login</button>
+    
+</ion-content>

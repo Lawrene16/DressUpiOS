@@ -1,0 +1,51 @@
+<ion-header>
+
+  <ion-navbar>
+    <p align="center"><ion-title>DressUp!</ion-title></p> 
+    <ion-buttons end>
+        <button ion-button icon-only (click)="refreshOptions()">
+            <ion-icon name="refresh" color="light"></ion-icon>
+          </button>
+        <button ion-button icon-only (click)="openModal()">
+            <ion-icon name="options" color="light"></ion-icon>
+        </button>
+      </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="appbody">
+  <br>
+  <br>
+  <br>
+  <div class="card-container" *ngIf="topready">
+    <sc-card padding *ngFor="let topattendant of topattendants" 
+        [orientation]="topcardDirection" 
+        [tinder-card]="topcardOverlay" 
+        [callDestroy]="topattendant.destroyEvent" 
+        [callLike]="topattendant.likeEvent" 
+        (onLike)="onCardInteract($event)">
+
+  <div class="user_img" [style.background-image]="topattendant.asBg"></div>
+      </sc-card>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+
+
+  <div class="card-container" *ngIf="bottomready">
+    <sc-card padding *ngFor="let bottomattendant of bottomattendants" 
+        [orientation]="bottomcardDirection" 
+        [tinder-card]="bottomcardOverlay" 
+        [callDestroy]="bottomattendant.destroyEvent" 
+        [callLike]="bottomattendant.likeEvent" 
+        (onLike)="onCardInteract($event)">
+
+  <div class="user_img" [style.background-image]="bottomattendant.asBg"></div>
+      </sc-card>
+  </div>
+</ion-content>

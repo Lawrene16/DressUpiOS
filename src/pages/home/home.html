@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <p align="center"><ion-title>DressUp!</ion-title></p> 
+    <ion-buttons end>
+        <button ion-button icon-only (click)="openModal()">
+          <ion-icon name="options" color="light"></ion-icon>
+        </button>
+      </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="appbody">
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <p align="center" style="font-size:16px; color: white"><img style="zoom:14%;" src="../../assets/imgs/handshake.png"><br>Shake!!</p>
+    
+      <ion-scroll scrollX="true" direction="x">
+        <ion-card style="border-radius: 5px;" *ngFor="let item of collectionurls">
+             <br>
+             <p align="center"> <img class="imageof" src="{{item}}"></p>
+         
+        </ion-card>
+      </ion-scroll>
+
+
+  </ion-content>
+
+
+
+
+              <!-- <button ion-item (click)="openDetailActivity(item)">            
+              More info
+              <ion-icon name="arrow-forward" item-right color="primary"></ion-icon>
+            </button> -->

@@ -1,0 +1,51 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "ios.dressup.app"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "ios.dressup.app"
+    },
+    "cordova-plugin-filechooser": {
+      "PACKAGE_NAME": "ios.dressup.app"
+    },
+    "cordova-plugin-filepath": {
+      "PACKAGE_NAME": "ios.dressup.app"
+    },
+    "cordova-plugin-googleplus": {
+      "PLAY_SERVICES_VERSION": "11.8.0",
+      "PACKAGE_NAME": "ios.dressup.app"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "ios.dressup.app"
+    },
+    "cordova-plugin-ionic-webview": {
+      "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+",
+      "PACKAGE_NAME": "ios.dressup.app"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "ios.dressup.app"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "ios.dressup.app"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "ios.dressup.app"
+    },
+    "twitter-connect-plugin": {
+      "FABRIC_KEY": "d778fc68e9c267965455b4427e3f73fd2b36850c",
+      "PACKAGE_NAME": "ios.dressup.app"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "ios.dressup.app"
+    }
+  },
+  "dependent_plugins": {}
+}

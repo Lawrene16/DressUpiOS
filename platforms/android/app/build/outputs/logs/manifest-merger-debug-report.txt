@@ -1,0 +1,515 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+MERGED from [com.twitter.sdk.android:twitter:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-1.4.0.aar/31ef8c18c5f3255380463e9d689e0783/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/506cd70bffe66debf60f5050684bca26/AndroidManifest.xml:17:1-31:12
+MERGED from [com.twitter.sdk.android:tweet-ui:1.1.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/tweet-ui-1.1.0.aar/eec2060f939e0c85dfe00f99ae3b6967/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/cc2f112dd405dc7d70ceec214d272fec/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-identity:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.8.0.aar/58beb371d32591a3ca2f5a18db7c41f8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.8.0.aar/e837f27b4297abad5e880923134e0d84/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.8.0.aar/28a91171b9c24e63ffd5e669c11c7068/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/95eb09c9f28333f19332c1b5c140514a/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/083750722b9531f4f4aa6bd3fe8f4330/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/eaf3d487386633fde7365c71b5274ac4/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2273e960a12a90c71a377e41e788e42f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/2f02ba9c7a731243807beb614d31fe0c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/a1a0e6bf7350ec31f8a86a4f75db09c5/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/f02c70b6f215d6a8e630115471831877/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/10f964c80c04d90c4b551c4325b265af/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/154d5202be78aaf735d6e67ae50f1e81/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/f8f17b8d0d9568386cf4305ee67dd303/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/420351075dbec655bddcb986eb8e7166/AndroidManifest.xml:17:1-31:12
+MERGED from [:CordovaLib] /home/lawrene/DressUpiOs/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
+MERGED from [com.twitter.sdk.android:tweet-composer:0.7.3] /home/lawrene/.gradle/caches/transforms-1/files-1.1/tweet-composer-0.7.3.aar/4baa366de41be33163e4a9264cb65e54/AndroidManifest.xml:2:1-13:12
+MERGED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:2:1-101:12
+MERGED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:2:1-26:12
+MERGED from [io.fabric.sdk.android:fabric:1.3.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/fabric-1.3.0.aar/147c36fac55a19e92a1ab69547fbaac5/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-identity-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-identity-license-11.8.0.aar/25d02a4eee4fa665c586c84787858939/AndroidManifest.xml:2:1-6:12
+MERGED from [com.twitter.cobalt:performance-metrics:0.2.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/performance-metrics-0.2.0.aar/03611173fb8eeee54582ee70bd8a72b7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/21cc654ed11c5ddc3d66578cdffb7961/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/91ac35352207e7b10b3114c91709df0e/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/30a6cc17ea03c0a95d10778e0ae1f96a/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/7419f20e28a64f3cf4e22d71a1707d21/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/648c795da08c0d0db8c17b2fda477eab/AndroidManifest.xml:2:1-6:12
+INJECTED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+	package
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:2:98-123
+		INJECTED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:2:70-97
+		INJECTED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:2:124-182
+	android:versionCode
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:2:46-69
+		INJECTED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.twitter.sdk.android:tweet-ui:1.1.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/tweet-ui-1.1.0.aar/eec2060f939e0c85dfe00f99ae3b6967/AndroidManifest.xml:9:5-67
+MERGED from [com.twitter.sdk.android:tweet-ui:1.1.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/tweet-ui-1.1.0.aar/eec2060f939e0c85dfe00f99ae3b6967/AndroidManifest.xml:9:5-67
+MERGED from [com.twitter.sdk.android:tweet-composer:0.7.3] /home/lawrene/.gradle/caches/transforms-1/files-1.1/tweet-composer-0.7.3.aar/4baa366de41be33163e4a9264cb65e54/AndroidManifest.xml:9:5-67
+MERGED from [com.twitter.sdk.android:tweet-composer:0.7.3] /home/lawrene/.gradle/caches/transforms-1/files-1.1/tweet-composer-0.7.3.aar/4baa366de41be33163e4a9264cb65e54/AndroidManifest.xml:9:5-67
+MERGED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:9:5-67
+MERGED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:9:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:9:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:5:5-13:19
+MERGED from [com.twitter.sdk.android:twitter:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-1.4.0.aar/31ef8c18c5f3255380463e9d689e0783/AndroidManifest.xml:9:5-20
+MERGED from [com.twitter.sdk.android:twitter:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-1.4.0.aar/31ef8c18c5f3255380463e9d689e0783/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/506cd70bffe66debf60f5050684bca26/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/506cd70bffe66debf60f5050684bca26/AndroidManifest.xml:25:5-29:19
+MERGED from [com.twitter.sdk.android:tweet-ui:1.1.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/tweet-ui-1.1.0.aar/eec2060f939e0c85dfe00f99ae3b6967/AndroidManifest.xml:11:5-20
+MERGED from [com.twitter.sdk.android:tweet-ui:1.1.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/tweet-ui-1.1.0.aar/eec2060f939e0c85dfe00f99ae3b6967/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/cc2f112dd405dc7d70ceec214d272fec/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/cc2f112dd405dc7d70ceec214d272fec/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-identity:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.8.0.aar/58beb371d32591a3ca2f5a18db7c41f8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.8.0.aar/58beb371d32591a3ca2f5a18db7c41f8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/95eb09c9f28333f19332c1b5c140514a/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/95eb09c9f28333f19332c1b5c140514a/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/083750722b9531f4f4aa6bd3fe8f4330/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/083750722b9531f4f4aa6bd3fe8f4330/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/eaf3d487386633fde7365c71b5274ac4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/eaf3d487386633fde7365c71b5274ac4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2273e960a12a90c71a377e41e788e42f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2273e960a12a90c71a377e41e788e42f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/2f02ba9c7a731243807beb614d31fe0c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/2f02ba9c7a731243807beb614d31fe0c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/a1a0e6bf7350ec31f8a86a4f75db09c5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/a1a0e6bf7350ec31f8a86a4f75db09c5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/f02c70b6f215d6a8e630115471831877/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/f02c70b6f215d6a8e630115471831877/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/10f964c80c04d90c4b551c4325b265af/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/10f964c80c04d90c4b551c4325b265af/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/154d5202be78aaf735d6e67ae50f1e81/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/154d5202be78aaf735d6e67ae50f1e81/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/f8f17b8d0d9568386cf4305ee67dd303/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/f8f17b8d0d9568386cf4305ee67dd303/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/420351075dbec655bddcb986eb8e7166/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/420351075dbec655bddcb986eb8e7166/AndroidManifest.xml:25:5-29:19
+MERGED from [com.twitter.sdk.android:tweet-composer:0.7.3] /home/lawrene/.gradle/caches/transforms-1/files-1.1/tweet-composer-0.7.3.aar/4baa366de41be33163e4a9264cb65e54/AndroidManifest.xml:11:5-20
+MERGED from [com.twitter.sdk.android:tweet-composer:0.7.3] /home/lawrene/.gradle/caches/transforms-1/files-1.1/tweet-composer-0.7.3.aar/4baa366de41be33163e4a9264cb65e54/AndroidManifest.xml:11:5-20
+MERGED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:11:5-99:19
+MERGED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:11:5-99:19
+MERGED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:11:5-24:19
+MERGED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:11:5-24:19
+MERGED from [io.fabric.sdk.android:fabric:1.3.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/fabric-1.3.0.aar/147c36fac55a19e92a1ab69547fbaac5/AndroidManifest.xml:9:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/fabric-1.3.0.aar/147c36fac55a19e92a1ab69547fbaac5/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-identity-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-identity-license-11.8.0.aar/25d02a4eee4fa665c586c84787858939/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-identity-license-11.8.0.aar/25d02a4eee4fa665c586c84787858939/AndroidManifest.xml:5:5-20
+MERGED from [com.twitter.cobalt:performance-metrics:0.2.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/performance-metrics-0.2.0.aar/03611173fb8eeee54582ee70bd8a72b7/AndroidManifest.xml:9:5-20
+MERGED from [com.twitter.cobalt:performance-metrics:0.2.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/performance-metrics-0.2.0.aar/03611173fb8eeee54582ee70bd8a72b7/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/21cc654ed11c5ddc3d66578cdffb7961/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/21cc654ed11c5ddc3d66578cdffb7961/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/91ac35352207e7b10b3114c91709df0e/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/91ac35352207e7b10b3114c91709df0e/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/30a6cc17ea03c0a95d10778e0ae1f96a/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/30a6cc17ea03c0a95d10778e0ae1f96a/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/7419f20e28a64f3cf4e22d71a1707d21/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/7419f20e28a64f3cf4e22d71a1707d21/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/648c795da08c0d0db8c17b2fda477eab/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/648c795da08c0d0db8c17b2fda477eab/AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
+activity#ios.dressup.app.MainActivity
+ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+meta-data#io.fabric.ApiKey
+ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:12:9-111
+	android:value
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:12:52-108
+	android:name
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:12:20-51
+uses-sdk
+ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:14:5-74
+INJECTED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:14:5-74
+MERGED from [com.twitter.sdk.android:twitter:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-1.4.0.aar/31ef8c18c5f3255380463e9d689e0783/AndroidManifest.xml:7:5-43
+MERGED from [com.twitter.sdk.android:twitter:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-1.4.0.aar/31ef8c18c5f3255380463e9d689e0783/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/506cd70bffe66debf60f5050684bca26/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/506cd70bffe66debf60f5050684bca26/AndroidManifest.xml:21:5-23:78
+MERGED from [com.twitter.sdk.android:tweet-ui:1.1.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/tweet-ui-1.1.0.aar/eec2060f939e0c85dfe00f99ae3b6967/AndroidManifest.xml:7:5-43
+MERGED from [com.twitter.sdk.android:tweet-ui:1.1.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/tweet-ui-1.1.0.aar/eec2060f939e0c85dfe00f99ae3b6967/AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/cc2f112dd405dc7d70ceec214d272fec/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/cc2f112dd405dc7d70ceec214d272fec/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.8.0.aar/58beb371d32591a3ca2f5a18db7c41f8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.8.0.aar/58beb371d32591a3ca2f5a18db7c41f8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.8.0.aar/e837f27b4297abad5e880923134e0d84/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.8.0.aar/e837f27b4297abad5e880923134e0d84/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.8.0.aar/28a91171b9c24e63ffd5e669c11c7068/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.8.0.aar/28a91171b9c24e63ffd5e669c11c7068/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/95eb09c9f28333f19332c1b5c140514a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/95eb09c9f28333f19332c1b5c140514a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/083750722b9531f4f4aa6bd3fe8f4330/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/083750722b9531f4f4aa6bd3fe8f4330/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/eaf3d487386633fde7365c71b5274ac4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/eaf3d487386633fde7365c71b5274ac4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2273e960a12a90c71a377e41e788e42f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2273e960a12a90c71a377e41e788e42f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/2f02ba9c7a731243807beb614d31fe0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/2f02ba9c7a731243807beb614d31fe0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/a1a0e6bf7350ec31f8a86a4f75db09c5/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/a1a0e6bf7350ec31f8a86a4f75db09c5/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/f02c70b6f215d6a8e630115471831877/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/f02c70b6f215d6a8e630115471831877/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/10f964c80c04d90c4b551c4325b265af/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/10f964c80c04d90c4b551c4325b265af/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/154d5202be78aaf735d6e67ae50f1e81/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/154d5202be78aaf735d6e67ae50f1e81/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/f8f17b8d0d9568386cf4305ee67dd303/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/f8f17b8d0d9568386cf4305ee67dd303/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/420351075dbec655bddcb986eb8e7166/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/420351075dbec655bddcb986eb8e7166/AndroidManifest.xml:21:5-23:58
+MERGED from [:CordovaLib] /home/lawrene/DressUpiOs/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /home/lawrene/DressUpiOs/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [com.twitter.sdk.android:tweet-composer:0.7.3] /home/lawrene/.gradle/caches/transforms-1/files-1.1/tweet-composer-0.7.3.aar/4baa366de41be33163e4a9264cb65e54/AndroidManifest.xml:7:5-43
+MERGED from [com.twitter.sdk.android:tweet-composer:0.7.3] /home/lawrene/.gradle/caches/transforms-1/files-1.1/tweet-composer-0.7.3.aar/4baa366de41be33163e4a9264cb65e54/AndroidManifest.xml:7:5-43
+MERGED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:7:5-43
+MERGED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:7:5-43
+MERGED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:7:5-43
+MERGED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/fabric-1.3.0.aar/147c36fac55a19e92a1ab69547fbaac5/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/fabric-1.3.0.aar/147c36fac55a19e92a1ab69547fbaac5/AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.gms:play-services-identity-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-identity-license-11.8.0.aar/25d02a4eee4fa665c586c84787858939/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-identity-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-identity-license-11.8.0.aar/25d02a4eee4fa665c586c84787858939/AndroidManifest.xml:4:5-43
+MERGED from [com.twitter.cobalt:performance-metrics:0.2.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/performance-metrics-0.2.0.aar/03611173fb8eeee54582ee70bd8a72b7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.twitter.cobalt:performance-metrics:0.2.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/performance-metrics-0.2.0.aar/03611173fb8eeee54582ee70bd8a72b7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/21cc654ed11c5ddc3d66578cdffb7961/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/21cc654ed11c5ddc3d66578cdffb7961/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/91ac35352207e7b10b3114c91709df0e/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/91ac35352207e7b10b3114c91709df0e/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/30a6cc17ea03c0a95d10778e0ae1f96a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/30a6cc17ea03c0a95d10778e0ae1f96a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/7419f20e28a64f3cf4e22d71a1707d21/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/7419f20e28a64f3cf4e22d71a1707d21/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/648c795da08c0d0db8c17b2fda477eab/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/648c795da08c0d0db8c17b2fda477eab/AndroidManifest.xml:4:5-43
+INJECTED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:14:5-74
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/506cd70bffe66debf60f5050684bca26/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:14:42-71
+	android:minSdkVersion
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:14:15-41
+		INJECTED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:16:22-77
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:17:5-71
+	android:name
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:17:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:18:5-74
+	android:name
+		ADDED from /home/lawrene/DressUpiOs/platforms/android/app/src/main/AndroidManifest.xml:18:22-71
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/506cd70bffe66debf60f5050684bca26/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2273e960a12a90c71a377e41e788e42f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2273e960a12a90c71a377e41e788e42f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/2f02ba9c7a731243807beb614d31fe0c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/2f02ba9c7a731243807beb614d31fe0c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/a1a0e6bf7350ec31f8a86a4f75db09c5/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/a1a0e6bf7350ec31f8a86a4f75db09c5/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/f02c70b6f215d6a8e630115471831877/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/f02c70b6f215d6a8e630115471831877/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/10f964c80c04d90c4b551c4325b265af/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/10f964c80c04d90c4b551c4325b265af/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/154d5202be78aaf735d6e67ae50f1e81/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/154d5202be78aaf735d6e67ae50f1e81/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/f8f17b8d0d9568386cf4305ee67dd303/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/f8f17b8d0d9568386cf4305ee67dd303/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/420351075dbec655bddcb986eb8e7166/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/420351075dbec655bddcb986eb8e7166/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/506cd70bffe66debf60f5050684bca26/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/506cd70bffe66debf60f5050684bca26/AndroidManifest.xml:27:13-51
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/cc2f112dd405dc7d70ceec214d272fec/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/cc2f112dd405dc7d70ceec214d272fec/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/cc2f112dd405dc7d70ceec214d272fec/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/cc2f112dd405dc7d70ceec214d272fec/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/cc2f112dd405dc7d70ceec214d272fec/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/cc2f112dd405dc7d70ceec214d272fec/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/cc2f112dd405dc7d70ceec214d272fec/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/cc2f112dd405dc7d70ceec214d272fec/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/cc2f112dd405dc7d70ceec214d272fec/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/95eb09c9f28333f19332c1b5c140514a/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/95eb09c9f28333f19332c1b5c140514a/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/95eb09c9f28333f19332c1b5c140514a/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/95eb09c9f28333f19332c1b5c140514a/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/eaf3d487386633fde7365c71b5274ac4/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/eaf3d487386633fde7365c71b5274ac4/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/eaf3d487386633fde7365c71b5274ac4/AndroidManifest.xml:24:13-58
+activity#com.digits.sdk.android.PhoneNumberActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:12:9-18:58
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:15:13-46
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:18:13-55
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:16:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:14:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:17:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:13:13-70
+activity#com.digits.sdk.android.ConfirmationCodeActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:19:9-25:58
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:22:13-46
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:25:13-55
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:23:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:21:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:24:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:20:13-75
+activity#com.digits.sdk.android.LoginCodeActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:26:9-33:58
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:31:13-43
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:33:13-55
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:30:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:28:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:27:13-68
+activity#com.digits.sdk.android.PinCodeActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:34:9-41:58
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:37:13-46
+	android:launchMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:39:13-43
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:41:13-55
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:36:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:40:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:35:13-66
+activity#com.digits.sdk.android.FailureActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:42:9-47:61
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:45:13-46
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:46:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:44:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:47:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:43:13-66
+activity#com.digits.sdk.android.ContactsActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:48:9-52:40
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:51:13-46
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:52:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:50:13-59
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:49:13-67
+activity#com.digits.sdk.android.PhoneNumberActionBarActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:53:9-59:58
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:56:13-46
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:59:13-55
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:57:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:55:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:58:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:54:13-79
+activity#com.digits.sdk.android.ConfirmationCodeActionBarActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:60:9-66:58
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:63:13-46
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:66:13-55
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:64:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:62:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:65:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:61:13-84
+activity#com.digits.sdk.android.LoginCodeActionBarActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:67:9-74:58
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:70:13-46
+	android:launchMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:72:13-43
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:74:13-55
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:71:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:69:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:73:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:68:13-77
+activity#com.digits.sdk.android.FailureActionBarActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:75:9-80:61
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:78:13-46
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:79:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:77:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:80:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:76:13-75
+activity#com.digits.sdk.android.ContactsActionBarActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:81:9-85:40
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:84:13-46
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:85:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:83:13-59
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:82:13-76
+activity#com.digits.sdk.android.PinCodeActionBarActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:86:9-93:58
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:89:13-46
+	android:launchMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:91:13-43
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:93:13-55
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:90:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:88:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:92:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:87:13-75
+service#com.digits.sdk.android.ContactsUploadService
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:95:9-98:40
+	android:enabled
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:97:13-35
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:98:13-37
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/lawrene/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/a356f5382b33137b2cbc6a4b19a8025e/AndroidManifest.xml:96:13-72
+activity#com.twitter.sdk.android.core.identity.OAuthActivity
+ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:12:9-16:40
+	android:excludeFromRecents
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:15:13-46
+	android:exported
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:16:13-37
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:14:13-59
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:13:13-79
+activity#com.twitter.sdk.android.core.identity.ShareEmailActivity
+ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:17:9-23:48
+	android:label
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:23:13-45
+	android:excludeFromRecents
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:20:13-46
+	android:exported
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:21:13-37
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:19:13-59
+	android:icon
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:22:13-53
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/lawrene/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/d20b3eae5444b47455f7fa150fab679c/AndroidManifest.xml:18:13-84

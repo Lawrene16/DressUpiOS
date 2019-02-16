@@ -1,0 +1,68 @@
+page-gallery {
+
+    .appbody{
+        background-image: url('../../assets/imgs/screen.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+   }
+
+   ion-header {
+       .toolbar {
+           position: absolute;
+
+           .toolbar-background {
+               background: #6BB2DE;
+           }
+           .toolbar-title {
+               color: white
+           }
+       }
+   }
+
+   .gallerybutton{
+        align-self: flex-end;
+        text-align: end;
+        background: #64B5F6
+   }
+
+   .imageof {
+       height: 90%;
+       width: 95%;
+    background-size: cover;
+ }
+
+ .galleryimagestyle{
+    padding: 1px;
+    width: 40%;
+    height: 160px; 
+    float:left;
+ }
+
+ .seconddiv{
+    padding: 5px;
+    width: 60%;
+    height: 100%; 
+    float:right;
+ }
+
+ .gallerycard{
+    height: 160px;
+    padding: 10px; 
+    // background: transparent;
+ }
+
+ .toptextdiv{
+    width: 100%;
+    height: 90px; 
+ }
+
+ .bottomButtonDiv{
+    display: flex; 
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 60px; 
+    float: bottom;
+ }
+
+}

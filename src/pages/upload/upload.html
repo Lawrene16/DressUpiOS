@@ -1,0 +1,100 @@
+<ion-header>
+    <ion-navbar>
+      <p align="center"><ion-title>DressUp!</ion-title></p> 
+      <ion-buttons end>
+          <button ion-button icon-only (click)="openModal()">
+            <ion-icon name="options" color="light"></ion-icon>
+          </button>
+        </ion-buttons>
+    </ion-navbar>
+  </ion-header>
+
+
+<ion-content padding class="appbody">
+
+  <br>
+  <br>
+
+  <ion-card class="uploadcard">
+
+    <img style="padding: 5px;" src="{{imgurl}}">
+
+  </ion-card>
+  
+  <div text-center="">
+      <button class="mybutton" (click)="choosefromcamera()" ion-button>
+        Camera
+      </button>
+  
+      <button class="mybutton" (click)="choosefromgallery()" ion-button>
+        Gallery
+      </button>
+  </div>
+
+  <br>
+  <p style="font-size: 16px;">What part of your collection  will you like to add  this to?</p>
+  <ion-item>
+      <ion-label >Select</ion-label>
+      <ion-select [(ngModel)]="dressType">
+        <ion-option >T-Shirts</ion-option>
+        <ion-option >Shirts</ion-option>
+        <ion-option >Trousers</ion-option>
+        <ion-option >Shorts</ion-option>
+        <ion-option >Gowns</ion-option>
+        <ion-option >Coats</ion-option>
+        <ion-option >Jackets</ion-option>
+        <ion-option >Shoes</ion-option>
+      </ion-select>
+  </ion-item>
+
+  <br>
+
+  <p align="center" style="font-size: 16px;">Preffered weather for wearing this cloth</p>
+
+  <ion-grid>
+      <ion-row>
+        <ion-col>
+            <p align="center">
+                    <ion-icon  (click)="changeiconsize(0)" 
+                    [ngStyle]="{'font-size': sunnyiconsize}"
+                     name="ios-sunny">
+            </ion-icon><br><p>Sunny</p>
+            </p>
+        </ion-col>
+
+        <ion-col>
+            <p align="center">
+                    <ion-icon  (click)="changeiconsize(1)" 
+                    [ngStyle]="{'font-size': rainyiconsize}"
+                    name="ios-rainy">
+                   </ion-icon><br><p>Rainy</p>
+            </p>
+        </ion-col>
+
+        <ion-col>
+                <p align="center">
+                    <ion-icon  (click)="changeiconsize(2)"
+                    [ngStyle]="{'font-size': cloudyiconsize}"
+                    name="ios-cloudy">
+                    </ion-icon><br><p>Cloudy</p>
+                </p>
+        </ion-col>
+
+        <ion-col>
+                <p align="center">
+            <ion-icon  (click)="changeiconsize(3)" 
+            [ngStyle]="{'font-size': snowyiconsize}"
+             name="ios-snow">
+            </ion-icon><br><p>Snowy</p>
+                 </p>
+        </ion-col>
+      </ion-row>
+  </ion-grid>
+
+
+
+  <div text-center>
+      <button ion-button class="mybutton"
+       (click)="peformUpload()">Save</button>
+  </div>
+</ion-content>

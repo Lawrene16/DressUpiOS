@@ -1,0 +1,35 @@
+page-today {
+    .appbody{
+        background-image: url('../../assets/imgs/screen.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+   }
+
+   ion-header {
+       .toolbar {
+           position: absolute;
+
+           .toolbar-background {
+               background: transparent;
+           }
+           .toolbar-title {
+               color: white;
+           }
+       }
+   }
+
+   .card-container {
+       margin-left: auto;
+       margin-right: auto;
+    height: 60vw;
+    width: 60vw;
+    }
+        .user_img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+}

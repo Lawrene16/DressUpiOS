@@ -1,0 +1,4 @@
+#Sat Feb 02 00:24:44 WAT 2019
+base.0=/home/lawrene/DressUpiOs/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

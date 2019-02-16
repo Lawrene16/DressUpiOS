@@ -1,0 +1,47 @@
+page-login {
+
+   .loginbtns{
+    height: 40px;
+    color: white;
+    background-color: #00BCD4;
+    }
+
+    .thattext{
+        color: white;
+        font-size: 35px;
+    }
+    .item .item-content {
+        background-color: transparent !important;
+    }
+
+    .twitter-button{
+        margin: 0px;
+        margin-top: 20px;
+        border-radius: 6px;
+        color: #fff;
+        background-color:  #1DA1F2;
+        font-size: 1.6rem;
+        font-weight: 500;
+      }
+
+      .facebook-button
+      {
+        margin: 0px;
+        border-radius: 6px;
+        color: #fff;
+        background-color: #4867AA;
+        font-size: 1.6rem;
+        font-weight: 500;
+      }
+    
+      .google-button
+      {
+        margin: 0px;
+        margin-top: 20px;
+        border-radius: 6px;
+        color: #000;
+        background-color: #fff;
+        font-size: 1.6rem;
+        font-weight: 500;
+      }
+}

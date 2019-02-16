@@ -1,0 +1,29 @@
+page-upload {
+    .appbody{
+        background-image: url('../../assets/imgs/screen.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+   }
+
+   ion-header {
+       .toolbar {
+           position: absolute;
+
+           .toolbar-background {
+                background: #6BB2DE;
+           }
+           .toolbar-title {
+               color: white;
+           }
+       }
+   }
+
+   ion-card {
+        border-radius: 50px;
+        height: 55%;
+    }
+
+    .mybutton{
+        background: #64B5F6;
+    }
+}

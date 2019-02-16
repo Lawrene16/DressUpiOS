@@ -1,0 +1,45 @@
+page-home {
+    .appbody{
+        background-image: url('../../assets/imgs/screen.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+   }
+
+   ion-header {
+       .toolbar {
+           position: absolute;
+
+           .toolbar-background {
+               background: transparent;
+           }
+           .toolbar-title {
+               color: white;
+           }
+       }
+   }
+
+   .scroll-zoom-wrapper {
+    white-space: nowrap;
+    }
+
+    ion-card {
+        width: 60% !important;
+        height: 300px;
+        display: inline-block;
+    }
+
+    ion-scroll {
+        min-height: 350px; 
+        height: auto;
+            .scroll-content {
+            padding: 0px !important;
+        }    
+    }
+
+    .imageof {
+        height: 250px;
+        width: 95%;
+        background-size: cover;
+    }
+    
+}
